@@ -8,6 +8,7 @@ const navbar = React.createElement("div", {className: "title-under-content"}, [
         React.createElement("option", {value: "Add", className: "option"}, "Add"),
         React.createElement("option", {value: "Remove", className: "option"}, "Remove"),
     ]),
+    React.createElement('input', {type: "text", className: "example"}),
     React.createElement("h1", {className: "title"}, "Pokédex"),
     React.createElement("h1", {className: "title"}, "Pokédex"),
 ]);
